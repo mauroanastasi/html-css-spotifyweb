@@ -13,8 +13,13 @@ main{
 header{
     position: sticky;
     height: 55px;
-    background-color: aqua;
+    background-color: hsl(0, 0%, 15%);
     top: 0;
+}
+
+.btn{
+    border: 1px solid white;
+    color: white;
 }
 
 footer{
@@ -39,16 +44,49 @@ footer{
     justify-content: space-between;
 }
 
-.col-f-central{
+.col-f-central .content-f{
     width: 40%;
 }
 
 .col-f{
-    width: 33%;
+    width: 30%;
     background-color: blueviolet;
     border: 1px dashed red;
 }
+/* //////////////////SCROLL BAR////////////////// */
+/* ////////////////////////////////////////////// */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(213, 211, 211);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: hwb(140 4% 52%);
+  }
 
+  /* Border */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 25%;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    padding: 100px;
+  }
+
+
+/* //////////////////MEDIA QUERY////////////////// */
+/* /////////////////////////////////////////////// */
 @media screen and (min-width:400px){
     #sidebar{
         width: 150px;
