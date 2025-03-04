@@ -36,10 +36,15 @@ footer{
 .container-footer{
     height: 50px;
     display: flex;
+    justify-content: space-between;
 }
 
-footer .col-f{
-    width: calc(100% / 3);
+.col-f-central{
+    width: 40%;
+}
+
+.col-f{
+    width: 33%;
     background-color: blueviolet;
     border: 1px dashed red;
 }
