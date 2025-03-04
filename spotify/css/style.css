@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: calc(100vh - 50px);
+    background-color: grey;
+    display: flex;
+}
+
+header{
+    position: sticky;
+    height: 55px;
+    background-color: aqua;
+    top: 0;
+}
+
+footer{
+    height: 50px;
+    background-color: brown;
+}
+
+#sidebar{
+    height: 100%;
+    width: 50px;
+    background-color: blue;
+}   
+
+.content{
+    width: calc(100% - 50px);
+    overflow-y: auto;
+}
+
+.container-footer{
+    height: 50px;
+    display: flex;
+}
+
+footer .col-f{
+    width: calc(100% / 3);
+    background-color: blueviolet;
+    border: 1px dashed red;
+}
+
+@media screen and (min-width:400px){
+    #sidebar{
+        width: 150px;
+    }
+}
+
+@media screen and (min-width:630px){
+
+}
+
+@media screen and (min-width:940px){
+}
