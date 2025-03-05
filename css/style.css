@@ -55,7 +55,7 @@ header{
     font-size: x-small;
     padding: 2px;
     padding-left: 5px;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 main{
@@ -71,8 +71,18 @@ main{
 }
 
 .titolocat{
-    font-size: x-large;
+    font-size: large;
     color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.sottotit{
+    font-size: x-small;
+    color: gray;
+    margin-bottom: 15px;
+    margin-left: 10px;
 }
 
 .row-m{
@@ -112,6 +122,7 @@ main{
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    padding: 4px;
 }
 
 .row-s-t :first-child img{
@@ -173,7 +184,7 @@ main{
 
 footer{
     height: 50px;
-    background-color: brown;
+    background-color: hwb(0 18% 82%);
 }
 
 .container-footer{
@@ -182,14 +193,52 @@ footer{
     justify-content: space-between;
 }
 
+.content-f{
+    display: flex;
+}
+
 .col-f-central .content-f{
     width: 40%;
 }
 
 .col-f{
     width: 30%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     border: 1px dashed red;
+}
+
+.col-f :first-child img{
+    width: 20px;
+    height: 20px;
+}
+
+.titolosong{
+    font-size: 9px;
+    color: #ffffff;
+    padding-left: 3px;
+}
+
+.songsong{
+    font-size: 7px;
+    color: gray;
+    padding-left: 3px;
+}
+
+.minic-col-l{
+    padding-top:10px ;
+    padding-bottom:5px ;
+    padding-left: 5px;
+}
+
+footer i{
+    font-size: x-small;
+    color: gray;
+}
+
+.isong{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
 /* //////////////////SCROLL BAR////////////////// */
 /* ////////////////////////////////////////////// */
