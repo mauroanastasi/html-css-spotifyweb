@@ -212,8 +212,15 @@ footer{
     justify-content: space-between;
 }
 
-.content-f{
+.content-f-l{
     display: flex;
+}
+
+
+.content-f{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .col-f-central{
@@ -262,9 +269,16 @@ footer i{
 
 .playertop{
     display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+
 }
 .playerdown{
     display: flex;
+}
+
+.coldplayer{
+    padding: 20px;
 }
 /* //////////////////SCROLL BAR////////////////// */
 /* ////////////////////////////////////////////// */
