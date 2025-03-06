@@ -271,8 +271,9 @@ main{
 .row-s-d hr{
     margin-top: 1px;
     margin-bottom: 5px;
+    margin-right: 15px;
     background-color: gray;
-    display: inline;
+    display: none;
 }
 
 .col-s-d:first-child img{
@@ -488,23 +489,16 @@ footer i{
     #sidebar{
         width: 240px;
     }
-    .col-s-playlist{
-        display: inline;
-    }
+
     .fa-brands{
         display: none;
     }
-    .logoprinc{
-        display: inline;
-    }
+
     .col-s{
         text-align: left;
         margin-left: 7px;
     }
-    .menù{
-        display: inline;
-    }
-    .underside-d,.underside-t{
+    .logoprinc,.col-s-playlist,.menù,.row-s-d hr,.underside-d,.underside-t{
         display: inline;
     }
 }
