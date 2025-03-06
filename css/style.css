@@ -75,7 +75,7 @@ main{
     color: white;
     margin-left: 10px;
     margin-top: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .sottotit{
@@ -230,7 +230,7 @@ footer{
 .col-f{
     width: 30%;
     /* background-color: blueviolet; */
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
 }
 
 .col-f :first-child img{
@@ -271,6 +271,9 @@ footer i{
     display: flex;
     justify-content: space-between;
     padding-left: 5px;
+    padding-top: 7px;
+    margin-left: -10px;
+
 
 }
 .playerdown{
@@ -279,6 +282,79 @@ footer i{
 
 .coldplayer{
     padding: 20px;
+}
+
+.playertop:nth-child(3){
+    font-size: larger;
+}
+
+.colbarcentral{
+    width: 80%;
+}
+
+.colbar{
+    width: 20%;
+}
+
+.barrascura{
+    padding: 1px;
+    background-color: lightslategrey;
+    width: 100%;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.barrachiara{
+    padding: 1px;
+    background-color: #ffffff;
+    width: 10%;
+    margin-top: -2px;
+}
+
+.colbarl{
+    font-size: 7px;
+    color: #ffffff;
+    padding: 5px;
+}
+.colbarr{
+    font-size: 7px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+/* .icon{
+    width: 15%;
+} */
+
+.barrapiccola{
+    width: 55%
+}
+
+.content-f-r{
+    display: flex;
+}
+
+.content-f-r .icon{
+    margin-top: 12px;
+}
+
+.barrapicgrigia{
+    padding: 1px;
+    background-color: lightslategrey;
+    width: 40px;
+    margin-top: 21px;
+    margin-left: 6px;
+}
+.barrapicbianca{
+    padding: 1px;
+    background-color: #ffffff;
+    width: 10px;
+    margin-top: -2px;
+    margin-left: 6px;   
+}
+
+.icon{
+    margin-left: 5px;
 }
 /* //////////////////SCROLL BAR////////////////// */
 /* ////////////////////////////////////////////// */
