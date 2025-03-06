@@ -227,13 +227,13 @@ footer{
     width: 40%;
 }
 
-.col-f{
+.col-f-l,.col-f-r{
     width: 30%;
     /* background-color: blueviolet; */
     /* border: 1px dashed red; */
 }
 
-.col-f :first-child img{
+.col-f-l :first-child img{
     width: 20px;
     height: 20px;
 }
@@ -355,6 +355,12 @@ footer i{
 
 .icon{
     margin-left: 5px;
+}
+
+.col-f-r{
+    margin-right: 7px;
+    display: flex;
+    justify-content: flex-end;
 }
 /* //////////////////SCROLL BAR////////////////// */
 /* ////////////////////////////////////////////// */
