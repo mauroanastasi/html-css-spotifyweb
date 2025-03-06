@@ -134,7 +134,7 @@ main{
 #sidebar{
     height: calc(100vh - 50px);
     height: 100%;
-    /* width: 50px; */
+    width: 30px;
     background-color: hsl(0, 0%, 0%);
     display: flex;
     flex-direction: column;
@@ -171,7 +171,7 @@ main{
 
 .col-s{
     width: 100%;
-    height: 20px;
+    height: 25px;
     /* background-color: #ff00b7; */
     /* border:1px solid #2411b8; */
 }
@@ -195,6 +195,24 @@ main{
     width: 100%;
     height: 20px;
     /* background-color: rgb(248, 245, 36); */
+}
+
+.logoprinc{
+    display:none;
+    width: 111px;
+    height: 30px;
+}
+
+.logoprinc img{
+    width: 111px;
+    height: 30px;
+    margin-top: -13px;
+}
+
+.menù{
+    display: none;
+    color: gray;
+    font-size: 10px;
 }
 
 /* ////////----FOOTER----/////////// */
@@ -397,11 +415,24 @@ footer i{
 /* /////////////////////////////////////////////// */
 @media screen and (min-width:400px){
     #sidebar{
-        width: 150px;
+        width: 240px;
     }
     .col-s-playlist{
         display: inline;
-}
+    }
+    .fa-brands{
+        display: none;
+    }
+    .logoprinc{
+        display: inline;
+    }
+    .col-s{
+        text-align: left;
+        margin-left: 7px;
+    }
+    .menù{
+        display: inline;
+    }
 }
 
 @media screen and (min-width:630px){
